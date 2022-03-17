@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="androidx_startup">androidx_startup</string>
+</resources>

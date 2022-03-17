@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../.gradle/caches/transforms-3/7435ac75e443dbd3f5c0d02aba35b410/transformed/lib-ui-1.0.0/res/drawable/picture_wechat_num_oval_selected.xml" value="0.1" />
+        <entry key="../../../../.gradle/caches/transforms-3/7435ac75e443dbd3f5c0d02aba35b410/transformed/lib-ui-1.0.0/res/drawable/picture_wechat_num_selector.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.30416666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

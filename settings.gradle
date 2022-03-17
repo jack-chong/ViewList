@@ -1,0 +1,34 @@
+pluginManagement {
+    repositories {
+
+        gradlePluginPortal()
+        maven { url 'https://jitpack.io' }
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url 'https://jitpack.io' }
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+
+
+        maven {
+            url 'https://maven.aliyun.com/repository/public'
+        }
+        maven {
+            credentials {
+                username ALIYUN_USERNAME
+                password ALIYUN_PASSWORD
+            }
+            url ALIYUN_MAVEN_URL
+        }
+    }
+}
+rootProject.name = "TestApp"
+include ':app'
